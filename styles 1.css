@@ -29,7 +29,11 @@ p, li, a{
   font-style: normal;
 }
 
-h1 , h2 , .logo{
+button{
+  cursor: pointer;
+}
+
+h1 , h2 , .logo, button{
   font-family: "Gugi", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -129,6 +133,14 @@ nav a:active{
 .signup button {
   margin-top: 16px;
   padding: 8px 16px;
+}
+
+#officerButton{
+  width: 200px;
+}
+
+#officerButton{
+  margin-left: 20px;
 }
 
 footer {

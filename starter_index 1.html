@@ -36,6 +36,11 @@
     </div>
   </section>
 
+  <section id = officers>
+    <button id="officerButton" onclick="renderOfficerInfo(this)">About our club Officer</button>
+
+  </section>
+
   <section id="meetings" class="meetings">
     <h2>Meeting Info</h2>
     <ul>
@@ -43,6 +48,8 @@
       <li>Room 204</li>
       <li>3:15 PM</li>
     </ul>
+    <button id="rsvpBtn" onclick="handleRSVP(this)">RSVP for Next Meeting!</button>
+    <p id="replace">===================================<p>
   </section>
 
   <section class="testimonials">
@@ -68,6 +75,6 @@
   <footer>
     <p>&copy; Web Design Club</p>
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
